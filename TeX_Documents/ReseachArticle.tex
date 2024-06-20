@@ -50,6 +50,7 @@
 \journal{Geomorphology}
 
 \begin{document}
+\bibliographystyle{elsarticle-harv}
 
 \begin{frontmatter}
 
@@ -78,39 +79,31 @@
 %%            country={}}
 %% \fntext[label3]{}
 
-\title{Sedimentary Environment Recognition Based on Support Vector Machine Algorithm — A Case Study of the Mengdong-Songnen Black Soil Subregion} %% Article title
+%% Article title
+\title{Depositional Environment Recognition Based on Support Vector Machine Algorithm — A Case Study of the Mengdong-Songnen Black Soil Subregion}
 
-%% use optional labels to link authors explicitly to addresses:
-%% \author[label1,label2]{}
-%% \affiliation[label1]{organization={},
-%%             addressline={},
-%%             city={},
-%%             postcode={},
-%%             state={},
-%%             country={}}
-%%
-%% \affiliation[label2]{organization={},
-%%             addressline={},
-%%             city={},
-%%             postcode={},
-%%             state={},
-%%             country={}}
-
-\author[aff1]{Song Gaoge} %% Author name
+%% Author name
+\author[aff1,aff2]{Song Gaoge}
 \author[aff1]{Tan Lihua\corref{cor1}}
 
 %% Author affiliation
-\affiliation{organization={},%Department and Organization
-            addressline={}, 
+\affiliation[aff1]{organization={Faculty of Geographic Science},
+            addressline={Beijing Normal University}, 
             city={Beijing},
             postcode={100875}, 
-            state={},
             country={China}}
+\affiliation[aff2]{organization={State Key Laboratory of Earth Surface Processes and Resource Ecology},
+            addressline={Beijing Normal University}, 
+            city={Beijing},
+            postcode={100875}, 
+            country={China}}
+
+\cortext[cor1]{Email: lihuatan@yeah.net}
 
 %% Abstract
 \begin{abstract}
 %% Text of abstract
-Abstract text.
+Sedimentary environment recognition is a crucial component of sedimentology analysis. This study focuses on the Mengdong-Songnen Black Soil Subregion in Northeastern China, aiming to elucidate the distribution and characteristics of sedimentary environments within the region.
 \end{abstract}
 
 %%Graphical abstract
@@ -120,18 +113,14 @@ Abstract text.
 
 %%Research highlights
 \begin{highlights}
-\item Research highlight 1
+\item Using the support vector machine algorithm, we innovatively established a high-performance depositional environment classification model based on grain size parameters as the indicators.
 \item Research highlight 2
 \end{highlights}
 
 %% Keywords
 \begin{keyword}
 %% keywords here, in the form: keyword \sep keyword
-
-%% PACS codes here, in the form: \PACS code \sep code
-
-%% MSC codes here, in the form: \MSC code \sep code
-%% or \MSC[2008] code \sep code (2000 is the default)
+Depositional environment \sep Support vector machine \sep The black soil region in northeastern China
 
 \end{keyword}
 
@@ -145,11 +134,33 @@ Abstract text.
 %%
 
 %% Use \section commands to start a section
-\section{Example Section}
+\section{Introduction}
 \label{sec1}
 %% Labels are used to cross-reference an item using \ref command.
 
-Section text. See Subsection \ref{subsec1}.
+Grain size distribution (GSD) is an important indicator of sedimentology and geomorphology research. The GSD reflects multiple pieces of information about sedimentary processes, such as weathering, erosion, and transportation \citep{friedman1978principles, boggs2012principles}. The formation of specific GSD characteristics and their variations within profiles are influenced by various factors, such as provenance, transport distance, transport mode, depositional environment, et al. These characteristics can be seen as the results of long-term interactions of multiple surface processes \citep{ShiQi1999, NieJunsheng2017, YuXinchen2023}.
+
+
+\section{Regional setting}
+\label{sec2}
+
+
+\section{Material and methods}
+\label{sec3}
+
+
+\subsection{Sampling design and sample collection}
+\label{subsec3.1}
+
+
+\section{Results}
+\label{sec4}
+
+\section{Discussion}
+\label{sec5}
+
+\section{Conclusions}
+\label{sec6}
 
 %% Use \subsection commands to start a subsection.
 \subsection{Example Subsection}
@@ -250,7 +261,7 @@ Appendix text.
 %%       \citet{<label>} ==> Lamport (1994)
 %%       \citep{<label>} ==> (Lamport, 1994)
 %%
-Example citation, See \citet{lamport94}.
+Example citation, See .
 
 %% If you have bib database file and want bibtex to generate the
 %% bibitems, please use
@@ -263,21 +274,8 @@ Example citation, See \citet{lamport94}.
 
 %% Refer following link for more details about bibliography and citations.
 %% https://en.wikibooks.org/wiki/LaTeX/Bibliography_Management
+\bibliography{References}
 
-\begin{thebibliography}{00}
-
-%% For authoryear reference style
-%% \bibitem[Author(year)]{label}
-%% Text of bibliographic item
-
-\bibitem[Lamport(1994)]{lamport94}
-  Leslie Lamport,
-  \textit{\LaTeX: a document preparation system},
-  Addison Wesley, Massachusetts,
-  2nd edition,
-  1994.
-
-\end{thebibliography}
 \end{document}
 
 \endinput

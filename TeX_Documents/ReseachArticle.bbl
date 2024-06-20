@@ -1,0 +1,53 @@
+\begin{thebibliography}{5}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\href}[2]{#2}
+\providecommand{\path}[1]{#1}
+\providecommand{\DOIprefix}{doi:}
+\providecommand{\ArXivprefix}{arXiv:}
+\providecommand{\URLprefix}{URL: }
+\providecommand{\Pubmedprefix}{pmid:}
+\providecommand{\doi}[1]{\href{http://dx.doi.org/#1}{\path{#1}}}
+\providecommand{\Pubmed}[1]{\href{pmid:#1}{\path{#1}}}
+\providecommand{\bibinfo}[2]{#2}
+\ifx\xfnm\relax \def\xfnm[#1]{\unskip,\space#1}\fi
+%Type = Book
+\bibitem[{Boggs et~al.(2012)}]{boggs2012principles}
+\bibinfo{author}{Boggs, S.}, et~al., \bibinfo{year}{2012}.
+\newblock \bibinfo{title}{Principles of Sedimentology and Stratigraphy}.
+\newblock \bibinfo{edition}{5th} ed., \bibinfo{publisher}{Pearson Prentice
+  Hall}, \bibinfo{address}{Upper Saddle River}.
+%Type = Book
+\bibitem[{Friedman et~al.(1978)Friedman, Sanders
+  et~al.}]{friedman1978principles}
+\bibinfo{author}{Friedman, G.M.}, \bibinfo{author}{Sanders, J.E.}, et~al.,
+  \bibinfo{year}{1978}.
+\newblock \bibinfo{title}{Principles of Sedimentology}.
+\newblock \bibinfo{publisher}{John Wiley \& Sons}, \bibinfo{address}{New York}.
+%Type = Article
+\bibitem[{Nie and Li(2017)}]{NieJunsheng2017}
+\bibinfo{author}{Nie, J.}, \bibinfo{author}{Li, M.}, \bibinfo{year}{2017}.
+\newblock \bibinfo{title}{A grain size study on late miocene huaitoutala
+  section, ne qaidam basin, and its implications for asian monsoon evolution}.
+\newblock \bibinfo{journal}{Quaternary Sciences} \bibinfo{volume}{37},
+  \bibinfo{pages}{1017--1026}.
+%Type = Article
+\bibitem[{Shi et~al.(1999)Shi, Wang and Chen}]{ShiQi1999}
+\bibinfo{author}{Shi, Q.}, \bibinfo{author}{Wang, J.}, \bibinfo{author}{Chen,
+  F.}, \bibinfo{year}{1999}.
+\newblock \bibinfo{title}{Preliminary study on grain size characteristics of
+  sediments and depositional environment of palaeo-terminal lake of shiyang
+  river}.
+\newblock \bibinfo{journal}{Journal of Lanzhou University (Natural Sciences)}
+  \bibinfo{volume}{35}, \bibinfo{pages}{195--198}.
+%Type = Article
+\bibitem[{Yu et~al.(2023)Yu, Li, Yang, Liu, Zhang and Ren}]{YuXinchen2023}
+\bibinfo{author}{Yu, X.}, \bibinfo{author}{Li, H.}, \bibinfo{author}{Yang, X.},
+  \bibinfo{author}{Liu, Z.}, \bibinfo{author}{Zhang, D.}, \bibinfo{author}{Ren,
+  X.}, \bibinfo{year}{2023}.
+\newblock \bibinfo{title}{Grain size characteristics of sediments in the
+  hunshandake sandy land and its implications}.
+\newblock \bibinfo{journal}{Acta Geographica Sinica} \bibinfo{volume}{78},
+  \bibinfo{pages}{1809--1824}.
+
+\end{thebibliography}
